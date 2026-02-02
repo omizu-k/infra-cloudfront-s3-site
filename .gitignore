@@ -1,0 +1,41 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Environment files
+*.tfvars
+*.tfvars.json
+!example.tfvars
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Design documents and parameter sheets
+docs/
+!docs/.gitkeep
+
+# Exclude draw.io backups but keep the diagram
+*.bak.drawio
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Backup
+*.backup
+*.bak
