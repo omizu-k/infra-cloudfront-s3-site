@@ -89,6 +89,3 @@ terraform destroy
 - [S3 Origin Access Control](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html)
 - [AWS CloudFront](https://docs.aws.amazon.com/cloudfront/)
 
-## ライセンス
-
-MIT License
